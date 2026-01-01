@@ -97,9 +97,9 @@ print(f"   - Training Score: {train_acc * 100:.2f}%")
 print(f"   - Test Score:     {acc * 100:.2f}%")
 
 if train_acc - acc > 0.10:
-    print("⚠️  WARNING: Overfitting detected.")
+    print("  WARNING: Overfitting detected.")
 else:
-    print("✅  STATUS: Healthy Model (Generalizes well).")
+    print("  STATUS: Healthy Model (Generalizes well).")
 print("="*60 + "\n")
 
 # ==============================================================================
@@ -133,4 +133,5 @@ plt.title('Heart Disease Detection (Naive Bayes)\nGreen: Healthy Zone | Red: Hig
 plt.xlabel('Age (Standardized)')
 plt.ylabel('Cholesterol Level (Standardized)')
 plt.legend()
+
 plt.show()
