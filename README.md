@@ -42,7 +42,7 @@ Sürekli sayısal değerleri tahmin etme modelleri.
 ### 4. Sınıflandırma (Classification) Algoritmaları
 Veriyi sınıflara ayırma (0/1, Kedi/Köpek) modelleri.
 * **25-Logistic-Regression.py** - Lojistik Regresyon ve Sigmoid fonksiyonu ile sınıflandırma.
-* **26-svm-rbf.py** - Destek Vektör Makineleri (SVM) ve RBF Kernel (Halka şeklinde veri ayrımı).
+* **26-SVM-Rbf.py** - Destek Vektör Makineleri (SVM) ve RBF Kernel (Halka şeklinde veri ayrımı).
 * **27-KNN.py** - K-En Yakın Komşu (KNN) algoritması ve gürültülü verideki davranışı.
 * **28-The-Clash-of-Classifiers.py** - Logistic Reg, SVM ve KNN modellerinin aynı arenada kapışması.
 * **29-Gaussion-Naive-Bayes.py** - Sürekli veriler (Örn: Sağlık verileri) için Gaussian Naive Bayes.
