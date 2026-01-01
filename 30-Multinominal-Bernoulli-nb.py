@@ -30,13 +30,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 # 3. HELPER FUNCTION (REPORT GENERATOR) 
 # ==============================================================================
 def print_report(model_name, train_acc, test_acc):
-    print(f"\n📢 {model_name.upper()} REPORT CARD:")
+    print(f"\n {model_name.upper()} REPORT CARD:")
     print("-" * 50)
-    print(f"   📘 Training Score: {train_acc * 100:.2f}%")
-    print(f"   📝 Test Score:     {test_acc * 100:.2f}%")
+    print(f"    Training Score: {train_acc * 100:.2f}%")
+    print(f"    Test Score:     {test_acc * 100:.2f}%")
     
     diff = train_acc - test_acc
-    print("   🔍 DIAGNOSIS: ", end="")
+    print("    DIAGNOSIS: ", end="")
     
     if diff > 0.10:
         print(" OVERFITTING DETECTED!")
@@ -78,4 +78,5 @@ bnb_test = bnb.score(X_test, y_test)
 
 
 print_report("Bernoulli NB (Binary)", bnb_train, bnb_test)
+
 
