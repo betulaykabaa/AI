@@ -50,15 +50,15 @@ print("DIAGNOSIS (TEŞHİS):")
 gap = train_acc - test_acc
 
 if gap > 0.10:
-    print("⚠️  OVERFITTING DETECTED! (Aşırı Öğrenme)")
+    print("  OVERFITTING DETECTED! (Aşırı Öğrenme)")
     print("    The model memorized the training data but fails on new data.")
     print("    Suggestion: Decrease 'gamma' or 'C'.")
 elif train_acc < 0.60:
-    print("⚠️  UNDERFITTING DETECTED! (Yetersiz Öğrenme)")
+    print("  UNDERFITTING DETECTED! (Yetersiz Öğrenme)")
     print("    The model is too simple to understand the pattern.")
     print("    Suggestion: Increase 'gamma' or 'C', or use more features.")
 else:
-    print("✅  PERFECT FIT! (Mükemmel Uyum)")
+    print("  PERFECT FIT! (Mükemmel Uyum)")
     print("    Train and Test scores are high and close to each other.")
     print("    The model has truly learned the logic.")
 print("="*50 + "\n")
@@ -89,4 +89,5 @@ for i, j in enumerate(np.unique(y_set)):
 
 plt.title(f'SVM RBF Analysis (Test Acc: %{test_acc*100:.1f})')
 plt.legend()
+
 plt.show()
