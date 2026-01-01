@@ -27,7 +27,7 @@ X[y == 1, :10] += 3
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
 # ==============================================================================
-# 3. HELPER FUNCTION (REPORT GENERATOR) 🖨️
+# 3. HELPER FUNCTION (REPORT GENERATOR) 
 # ==============================================================================
 def print_report(model_name, train_acc, test_acc):
     print(f"\n📢 {model_name.upper()} REPORT CARD:")
@@ -39,16 +39,16 @@ def print_report(model_name, train_acc, test_acc):
     print("   🔍 DIAGNOSIS: ", end="")
     
     if diff > 0.10:
-        print("⚠️ OVERFITTING DETECTED!")
+        print(" OVERFITTING DETECTED!")
         print("      The model memorized the training data but failed on the test data.")
     elif train_acc < 0.60:
-        print("⚠️ UNDERFITTING DETECTED!")
+        print(" UNDERFITTING DETECTED!")
         print("      The model failed to learn the patterns (Scores are too low).")
     elif test_acc > train_acc:
-        print("✅ EXCELLENT (ROBUST MODEL)")
+        print(" EXCELLENT (ROBUST MODEL)")
         print("      Performs even better on unseen data (Lucky distribution).")
     else:
-        print("✅ HEALTHY & BALANCED")
+        print(" HEALTHY & BALANCED")
         print("      Train and Test scores are close. The model generalizes well.")
     print("=" * 50)
 
@@ -66,7 +66,7 @@ mnb_test = mnb.score(X_test, y_test)
 print_report("Multinomial NB (Counter)", mnb_train, mnb_test)
 
 # ==============================================================================
-# 5. MODEL 2: BERNOULLI NAIVE BAYES (Binary / Existence Based) 💡
+# 5. MODEL 2: BERNOULLI NAIVE BAYES (Binary / Existence Based) 
 # ==============================================================================
 # Ignores counts. Checks: Is count > 0? (Yes/No).
 # It treats '3' and '1' exactly the same.
@@ -75,5 +75,6 @@ bnb.fit(X_train, y_train)
 
 bnb_train = bnb.score(X_train, y_train)
 bnb_test = bnb.score(X_test, y_test)
+
 
 print_report("Bernoulli NB (Binary)", bnb_train, bnb_test)
