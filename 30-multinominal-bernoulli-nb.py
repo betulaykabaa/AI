@@ -53,7 +53,7 @@ def print_report(model_name, train_acc, test_acc):
     print("=" * 50)
 
 # ==============================================================================
-# 4. MODEL 1: MULTINOMIAL NAIVE BAYES (Frequency Based) 🔢
+# 4. MODEL 1: MULTINOMIAL NAIVE BAYES (Frequency Based)
 # ==============================================================================
 # Focuses on HOW MANY times a word appears (Frequency).
 # It loves the "+= 3" signal we added earlier.
@@ -78,3 +78,4 @@ bnb_test = bnb.score(X_test, y_test)
 
 
 print_report("Bernoulli NB (Binary)", bnb_train, bnb_test)
+
