@@ -31,7 +31,7 @@ Ham veriyi modele hazırlama araçları.
 * **18-Corr.py** - Özellikler arası ilişkiyi ölçen Korelasyon Matrisi ve Isı Haritası.
 * **19-Fit-Predict.py** - Scikit-learn kütüphanesinin standart eğitim akışı (.fit / .predict).
 
-### 📈 3. Regresyon (Sayı Tahmini) Algoritmaları
+###  3. Regresyon (Sayı Tahmini) Algoritmaları
 Sürekli sayısal değerleri tahmin etme modelleri.
 * **20-Lineer-Regression.py** - Basit Doğrusal Regresyon (Tek değişken ile tahmin).
 * **21-Polynomial-regression.py** - Polinom Regresyon (Doğrusal olmayan/kıvrımlı veriler).
