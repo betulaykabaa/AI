@@ -58,5 +58,4 @@ Veriyi sınıflara ayırma (0/1, Kedi/Köpek) modelleri.
 *Bu proje, Yapay Zeka öğrenim sürecim kapsamında oluşturulmuştur.*
 
 XGBoost / LightGBM / CatBoost: Bunlar şu an endüstri standardıdır.
-QDA (Quadratic Discriminant Analysis): LDA'nın kardeşidir. LDA düz çizgi çizerken, QDA kıvrımlı sınırlar çizebilir.
 Multi-Layer Perceptron (MLP): Bu aslında "Yapay Sinir Ağları"nın (Deep Learning) başlangıcıdır. Ama scikit-learn içinde supervised bir model olarak da kullanılır.
