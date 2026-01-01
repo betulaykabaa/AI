@@ -1,4 +1,4 @@
-# AI# AI & Machine Learning Learning Path 🚀
+# AI# AI & Machine Learning Learning Path
 
 Bu repo, sıfırdan başlayarak veri bilimi, istatistiksel analiz, veri ön işleme ve makine öğrenmesi algoritmalarını (Regresyon & Sınıflandırma) içeren kapsamlı bir öğrenme yolculuğunun kaynak kodlarını barındırır.
 
