@@ -36,7 +36,7 @@ Sürekli sayısal değerleri tahmin etme modelleri.
 * **20-Lineer-Regression.py** - Basit Doğrusal Regresyon (Tek değişken ile tahmin).
 * **21-Polynomial-regression.py** - Polinom Regresyon (Doğrusal olmayan/kıvrımlı veriler).
 * **22-Multiple- Regression.PY** - Çok Değişkenli Regresyon (Birden fazla kriterle fiyat tahmini).
-* **23-ridge-lasso.py** - Ridge (L2) ve Lasso (L1) regularizasyonu ile aşırı öğrenmeyi (Overfitting) engelleme.
+* **23-Ridge-Lasso.py** - Ridge (L2) ve Lasso (L1) regularizasyonu ile aşırı öğrenmeyi (Overfitting) engelleme.
 * **24-Comparison.py** - Linear, Ridge ve Lasso modellerinin gürültülü veride karşılaştırılması.
 
 ### 4. Sınıflandırma (Classification) Algoritmaları
