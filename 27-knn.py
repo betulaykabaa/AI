@@ -32,7 +32,7 @@ X = np.vstack((np.hstack((X1, Y1)), np.hstack((X2, Y2)), np.hstack((X3, Y3))))
 y = np.vstack((C1, C2, C3)).ravel()
 
 # ==============================================================================
-# 2. ADDING REALISM (NOISE INJECTION) 😈
+# 2. ADDING REALISM (NOISE INJECTION) 
 # ==============================================================================
 # In real life, data is never perfect. Let's spoil %10 of the data.
 noise_ratio = 0.10 
@@ -46,7 +46,7 @@ noise_indices = np.random.choice(len(y), num_noise, replace=False)
 for i in noise_indices:
     y[i] = 1 - y[i]
 
-print(f"⚠️ Added noise to {num_noise} samples to make it realistic.")
+print(f" Added noise to {num_noise} samples to make it realistic.")
 
 # ==============================================================================
 # 3. PREPROCESSING (Scaling is MANDATORY for KNN)
@@ -78,11 +78,11 @@ print("-" * 50)
 
 print("DIAGNOSIS:")
 if train_acc - test_acc > 0.10:
-    print("⚠️  OVERFITTING: Try increasing K (e.g., K=10 or K=15).")
+    print("  OVERFITTING: Try increasing K (e.g., K=10 or K=15).")
 elif test_acc > train_acc:
-    print("✅  GOOD FIT: Test score is higher (lucky split).")
+    print("  GOOD FIT: Test score is higher (lucky split).")
 else:
-    print("✅  REALISTIC FIT: Scores are balanced and not 100%.")
+    print("  REALISTIC FIT: Scores are balanced and not 100%.")
 print("="*50 + "\n")
 
 # ==============================================================================
@@ -116,4 +116,5 @@ plt.title(f'KNN (K=5) with Noise (Realistic Data)')
 plt.xlabel('Age (Scaled)')
 plt.ylabel('Salary (Scaled)')
 plt.legend()
+
 plt.show()
