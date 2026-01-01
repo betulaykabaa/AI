@@ -46,7 +46,7 @@ Veriyi sınıflara ayırma (0/1, Kedi/Köpek) modelleri.
 * **27-KNN.py** - K-En Yakın Komşu (KNN) algoritması ve gürültülü verideki davranışı.
 * **28-The-Clash-of-Classifiers.py** - Logistic Reg, SVM ve KNN modellerinin aynı arenada kapışması.
 * **29-Gaussion-Naive-Bayes.py** - Sürekli veriler (Örn: Sağlık verileri) için Gaussian Naive Bayes.
-* **30-multinominal-bernoulli-nb.py** - Metin madenciliği ve spam filtresi için Naive Bayes türleri.
+* **30-Multinominal-Bernoulli-NB.py** - Metin madenciliği ve spam filtresi için Naive Bayes türleri.
 * **31-Heatmap.py** - **Eksik Veri Analizi:** Eksik (NaN) verilerin tespiti, görselleştirilmesi ve doldurulması (Imputation).
 * **32-Decision-Tree.py** - Karar Ağacı algoritması, kural görselleştirme ve ağaç yapısının çizimi.
 * **33-Random-Forest.py** - Rastgele Orman algoritması ve Özellik Önem Düzeyi (Feature Importance).
