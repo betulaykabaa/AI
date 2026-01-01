@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, f1_score
 from matplotlib.colors import ListedColormap
 
 # ==============================================================================
-# 1. THE ARENA (HARD MODE - OVERLAPPING DATA) 😈
+# 1. THE ARENA (HARD MODE - OVERLAPPING DATA) 
 # ==============================================================================
 np.random.seed(42)
 n_samples = 300
@@ -88,4 +88,5 @@ for i, (name, model) in enumerate(classifiers):
     ax.set_title(f"{name}\nAcc: %{acc*100:.1f}", fontsize=14)
 
 plt.tight_layout()
+
 plt.show()
