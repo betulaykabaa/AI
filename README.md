@@ -52,9 +52,9 @@ Veriyi sınıflara ayırma (0/1, Kedi/Köpek) modelleri.
 * **33-Random-Forest.py** - Rastgele Orman algoritması ve Özellik Önem Düzeyi (Feature Importance).
 * **34-LDA.py** - Lineer Diskriminant Analizi (LDA) ve özelliklerin sınıflara etkisi (Coefficients).
 * **35-QDA.py** - Karesel Diskriminant Analizi (QDA) ile kıvrımlı karar sınırları çizimi.
-**36-Ada-Bost-Classifier.py** - AdaBoost algoritması: Zayıf öğrenicilerin birleşerek karmaşık şekilleri (Daire/Kare) öğrenmesi.
 
 ### 5. Boosting Algoritmaları
+**36-Ada-Bost-Classifier.py** - AdaBoost algoritması: Zayıf öğrenicilerin birleşerek karmaşık şekilleri (Daire/Kare) öğrenmesi.
 * **37-XGBoost.py** - **XGBoost (eXtreme Gradient Boosting):** "Kaggle Katili" olarak bilinen, yüksek performanslı ve optimize edilmiş model.
 * **38-LightGBM.py** - **LightGBM:** Microsoft tarafından geliştirilen, büyük verilerde çok hızlı çalışan (Leaf-wise) algoritma.
 * **39-CatBoost.py** - **CatBoost:** Yandex tarafından geliştirilen, kategorik verileri (metin) otomatik işleyen ve simetrik ağaç kullanan model.
