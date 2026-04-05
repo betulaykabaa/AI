@@ -1,60 +1,102 @@
-## AI & Machine Learning Learning Path
+<div align="center">
 
-Bu repo, sıfırdan başlayarak veri bilimi, istatistiksel analiz, veri ön işleme ve makine öğrenmesi algoritmalarını (Regresyon & Sınıflandırma) içeren kapsamlı bir öğrenme yolculuğunun kaynak kodlarını barındırır.
+# AI & Machine Learning
 
-Her dosya, belirli bir konsepti izole bir şekilde ele alır ve görselleştirme ile destekler.
+### From Zero to ML — A Complete Learning Path
 
-## Dosya Listesi ve İçerikleri
+**39 standalone Python scripts covering statistics, data preprocessing, regression, classification, and boosting algorithms. Each file is self-contained with visualizations.**
 
-### 1. İstatistik, Olasılık ve Temeller
-Yapay zekanın matematiksel altyapısı.
-* **01-The-Bell-Curve.py** - Normal Dağılım (Gauss Eğrisi) ve standart sapmanın görselleştirilmesi.
-* **02-Histogram-vs-Theory.py** - Gerçek veri histogramı ile teorik olasılık eğrisinin karşılaştırılması.
-* **03-Standard-Scaler.py** - Veri ölçeklendirme (Standardization/Z-Score) ve dağılıma etkisi.
-* **04-Bernoulli.py** - Bernoulli dağılımı (Yazı/Tura mantığı) simülasyonu.
-* **05-Dropout.py** - Sinir ağlarında kullanılan "Dropout" (Unutma/Seyreltme) tekniğinin mantığı.
-* **06-Bayes-Theorem-Cancer.py** - Bayes Teoremi ile olasılık güncelleme (Hastalık testi örneği).
-* **07-Naive-Bayes.py** - Naive Bayes sınıflandırıcısının temel olasılık hesaplaması.
-* **08-T-Test.py** - İki model veya grup arasındaki farkın istatistiksel anlamlılığı (T-Testi).
-* **09-Tail-Test.py** - Hipotez testlerinde P-Value, Kritik Bölgeler ve Kuyruk (Tail) analizi.
-* **10-Analysis-of-Variance.py** - Değişkenlerin hedef üzerindeki etkisini ölçen ANOVA testi.
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-### 2. Veri Ön İşleme ve Görselleştirme Teknikleri
-Ham veriyi modele hazırlama araçları.
-* **11-Label-One-Hot-Encoding.py** - Kategorik (String) verileri sayısal formata çevirme (Encoding).
-* **12-Train_Test_Split.py** - Verisetini Eğitim (Train) ve Test olarak bölme stratejisi.
-* **13-Reashape.py** - Numpy dizilerini (Array) model girişine uygun hale getirme (Reshaping).
-* **14-Alpha.py** - Grafiklerde saydamlık (Alpha) kullanarak veri yoğunluğunu görme.
-* **15-Edgecolor-s.py** - Scatter plot grafiklerinde nokta boyutu ve kenarlık stilleri.
-* **16-Scatter.py** - İki değişken arasındaki ilişkiyi gösteren temel saçılım grafiği.
-* **17-Describe.py** - Pandas ile verinin istatistiksel özetini (Mean, Std, Min, Max) çıkarma.
-* **18-Corr.py** - Özellikler arası ilişkiyi ölçen Korelasyon Matrisi ve Isı Haritası.
-* **19-Fit-Predict.py** - Scikit-learn kütüphanesinin standart eğitim akışı (.fit / .predict).
+</div>
 
-###  3. Regresyon (Sayı Tahmini) Algoritmaları
-Sürekli sayısal değerleri tahmin etme modelleri.
-* **20-Lineer-Regression.py** - Basit Doğrusal Regresyon (Tek değişken ile tahmin).
-* **21-Polynomial-regression.py** - Polinom Regresyon (Doğrusal olmayan/kıvrımlı veriler).
-* **22-Multiple- Regression.PY** - Çok Değişkenli Regresyon (Birden fazla kriterle fiyat tahmini).
-* **23-Ridge-Lasso.py** - Ridge (L2) ve Lasso (L1) regularizasyonu ile aşırı öğrenmeyi (Overfitting) engelleme.
-* **24-Comparison.py** - Linear, Ridge ve Lasso modellerinin gürültülü veride karşılaştırılması.
+---
 
-### 4. Sınıflandırma (Classification) Algoritmaları
-Veriyi sınıflara ayırma (0/1, Kedi/Köpek) modelleri.
-* **25-Logistic-Regression.py** - Lojistik Regresyon ve Sigmoid fonksiyonu ile sınıflandırma.
-* **26-SVM-Rbf.py** - Destek Vektör Makineleri (SVM) ve RBF Kernel (Halka şeklinde veri ayrımı).
-* **27-KNN.py** - K-En Yakın Komşu (KNN) algoritması ve gürültülü verideki davranışı.
-* **28-The-Clash-of-Classifiers.py** - Logistic Reg, SVM ve KNN modellerinin aynı arenada kapışması.
-* **29-Gaussion-Naive-Bayes.py** - Sürekli veriler (Örn: Sağlık verileri) için Gaussian Naive Bayes.
-* **30-Multinominal-Bernoulli-NB.py** - Metin madenciliği ve spam filtresi için Naive Bayes türleri.
-* **31-Heatmap.py** - **Eksik Veri Analizi:** Eksik (NaN) verilerin tespiti, görselleştirilmesi ve doldurulması (Imputation).
-* **32-Decision-Tree.py** - Karar Ağacı algoritması, kural görselleştirme ve ağaç yapısının çizimi.
-* **33-Random-Forest.py** - Rastgele Orman algoritması ve Özellik Önem Düzeyi (Feature Importance).
-* **34-LDA.py** - Lineer Diskriminant Analizi (LDA) ve özelliklerin sınıflara etkisi (Coefficients).
-* **35-QDA.py** - Karesel Diskriminant Analizi (QDA) ile kıvrımlı karar sınırları çizimi.
+## What's Inside
 
-### 5. Boosting (Topluluk Öğrenmesi) Algoritmaları
-* **36-Ada-Bost-Classifier.py** - AdaBoost algoritması: Zayıf öğrenicilerin birleşerek karmaşık şekilleri (Daire/Kare) öğrenmesi.
-* **37-XGBoost.py** - **XGBoost (eXtreme Gradient Boosting):** "Kaggle Katili" olarak bilinen, yüksek performanslı ve optimize edilmiş model.
-* **38-LightGBM.py** - **LightGBM:** Microsoft tarafından geliştirilen, büyük verilerde çok hızlı çalışan (Leaf-wise) algoritma.
-* **39-CatBoost.py** - **CatBoost:** Yandex tarafından geliştirilen, kategorik verileri (metin) otomatik işleyen ve simetrik ağaç kullanan model.
+39 scripts organized as a progressive learning path — run any file independently.
+
+### 1. Statistics & Probability Fundamentals
+
+| # | File | Topic |
+|---|------|-------|
+| 01 | `The-Bell-Curve.py` | Normal Distribution (Gaussian Curve) |
+| 02 | `Histogram-vs-Theory.py` | Real data histogram vs theoretical curve |
+| 03 | `Standard-Scaler.py` | Data standardization (Z-Score) |
+| 04 | `Bernoulli.py` | Bernoulli distribution simulation |
+| 05 | `Dropout.py` | Dropout technique in neural networks |
+| 06 | `Bayes-Theorem-Cancer.py` | Bayes' Theorem with medical test example |
+| 07 | `Naive-Bayes.py` | Naive Bayes classifier basics |
+| 08 | `T-Test.py` | Statistical significance between two groups |
+| 09 | `Tail-Test.py` | P-Value, critical regions, tail analysis |
+| 10 | `Analysis-of-Variance.py` | ANOVA — measuring variable effects |
+
+### 2. Data Preprocessing & Visualization
+
+| # | File | Topic |
+|---|------|-------|
+| 11 | `Label-One-Hot-Encoding.py` | Categorical to numerical encoding |
+| 12 | `Train_Test_Split.py` | Train/test split strategy |
+| 13 | `Reashape.py` | Numpy array reshaping |
+| 14 | `Alpha.py` | Transparency in plots |
+| 15 | `Edgecolor-s.py` | Scatter plot styling |
+| 16 | `Scatter.py` | Basic scatter plot |
+| 17 | `Describe.py` | Statistical summary with Pandas |
+| 18 | `Corr.py` | Correlation matrix and heatmap |
+| 19 | `Fit-Predict.py` | scikit-learn .fit / .predict workflow |
+
+### 3. Regression (Predicting Numbers)
+
+| # | File | Topic |
+|---|------|-------|
+| 20 | `Lineer-Regression.py` | Simple Linear Regression |
+| 21 | `Polynomial-Regression.py` | Polynomial Regression |
+| 22 | `Multiple-Regression.py` | Multiple Regression |
+| 23 | `Ridge-Lasso.py` | Ridge (L2) and Lasso (L1) regularization |
+| 24 | `Comparison.py` | Linear vs Ridge vs Lasso |
+
+### 4. Classification (Categorizing Data)
+
+| # | File | Topic |
+|---|------|-------|
+| 25 | `Logistic-Regression.py` | Logistic Regression with Sigmoid |
+| 26 | `SVM-Rbf.py` | Support Vector Machines (RBF kernel) |
+| 27 | `KNN.py` | K-Nearest Neighbors |
+| 28 | `The-Clash-of-Classifiers.py` | LogReg vs SVM vs KNN head-to-head |
+| 29 | `Gaussion-Naive-Bayes.py` | Gaussian Naive Bayes |
+| 30 | `Multinominal-Bernoulli-NB.py` | Text classification & spam filtering |
+| 31 | `Heatmap.py` | Missing data analysis & imputation |
+| 32 | `Decision-Tree.py` | Decision Tree with rule visualization |
+| 33 | `Random-Forest.py` | Random Forest with feature importance |
+| 34 | `LDA.py` | Linear Discriminant Analysis |
+| 35 | `QDA.py` | Quadratic Discriminant Analysis |
+
+### 5. Boosting (Ensemble Learning)
+
+| # | File | Topic |
+|---|------|-------|
+| 36 | `Ada-Bost-Classifier.py` | AdaBoost |
+| 37 | `XGBoost.py` | XGBoost — the "Kaggle Killer" |
+| 38 | `LightGBM.py` | LightGBM — Microsoft's fast algorithm |
+| 39 | `CatBoost.py` | CatBoost — auto categorical handler |
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/betulaykabaa/AI.git
+cd AI
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm catboost
+python 01-The-Bell-Curve.py
+```
+
+Each script runs independently and produces visualizations.
+
+---
+
+## License
+
+MIT License
